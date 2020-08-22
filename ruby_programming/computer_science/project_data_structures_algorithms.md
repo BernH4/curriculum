@@ -29,7 +29,7 @@ You'll build a balanced BST in this assignment. Do not use duplicate values beca
 
   10. Write a `#balanced?` method which checks if the tree is balanced. A balanced tree is one where the difference between heights of left subtree and right subtree of every node is not more than 1.
 
-  11. Write a `#rebalance` method which rebalances an unbalanced tree. **Tip:** You'll want to create a level-order array of the tree before passing the array back into the `#build_tree` method.
+  11. Write a `#rebalance` method which rebalances an unbalanced tree. **Tip:** You'll want to create a inorder array of the tree before passing the array back into the `#build_tree` method.
 
   12. Write a simple driver script that does the following:
 
